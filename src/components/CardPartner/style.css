@@ -1,0 +1,85 @@
+.partner-card{
+    height: 400px;
+    background: radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.box-partner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 80px;
+    gap:3.5rem;
+
+}
+
+
+.partner-card img{
+    height: 400px;
+    width: 250px;
+    display: block;
+}
+
+.partner-card img{
+    transform: scale(1.2);
+    transition: all 0.3s ease-out;
+}
+
+.partner-card:hover img{
+     transform: scale(1.1) translateY(-20px);
+     opacity: 0.3;
+}
+
+.description{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.description h3{
+    color: var(--purple);
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 10px;
+    transform: translateY(30px);
+    opacity: 0;
+}
+.description p{
+    color: var(--purple);
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 0 20px;
+    transform: translateY(30px);
+    opacity: 0;
+}
+
+.share a {
+    color: var(--purple);
+    height: 4rem;
+    width: 4rem;
+    margin-top: 10px;
+    line-height: 4rem;
+    font-size: 2rem;
+    opacity: 0;
+}
+
+.partner-card:hover .description h3{
+    opacity: 1;
+}
+
+.partner-card:hover .description p{
+    opacity: 1;
+}
+
+.partner-card:hover .share a{
+    opacity: 1;
+}

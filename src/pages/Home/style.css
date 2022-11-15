@@ -1,0 +1,43 @@
+section{
+    padding: 2rem 7%;
+}
+
+.btni{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    color: white;
+    background: var(--purple);
+    border-radius: .5rem;
+}
+
+.btni:hover{
+    cursor: pointer;
+    color: var(--text-color-2);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10rem;
+}
+
+.home .image{
+    flex: 1 1 45rem;
+}
+
+.home .image img{
+    width: 100%;
+}
+
+.home .content{
+    flex: 1 1 45rem;
+}
+
+.home .content h3{
+    color: var(--purple);
+    font-size: 4rem;
+}

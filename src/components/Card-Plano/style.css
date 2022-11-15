@@ -1,0 +1,44 @@
+.cards-style {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50,50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.cursos {
+    margin-top: 20rem;
+    justify-content: center;
+}
+
+.planos {
+    text-align: center;
+}
+
+.row {
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding-left: 10px;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    color: white;
+    background: var(--purple);
+    border-radius: .5rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: var(--text-color-2);
+}

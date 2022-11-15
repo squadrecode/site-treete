@@ -1,0 +1,107 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-color-1);
+    box-shadow: var(--box-shadow);
+    padding: 2rem 7%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: var(--text-color-1);
+}
+
+header .logo i{
+    color: var(--purple);
+}
+
+header .menu a{
+    color: var(--purple);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: .8rem;
+}
+
+header .menu a:hover{
+    cursor: pointer;
+    color: var(--text-color-2);
+    text-decoration: none;
+}
+
+header .icons i{
+    color: var(--purple);
+    font-size: 1.5rem;
+}
+
+header .icons i:hover{
+    cursor: pointer;
+    color: var(--text-color-2);
+}
+
+#menu-bar{
+    color: var(--purple);
+    border: .1rem solid var(--purple);
+    border-radius: .5rem;
+    font-size: 2rem;
+    padding: .5rem 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 991px){
+    header{
+        padding: 2rem;
+    }
+}
+
+@media(max-width: 768px){
+   #menu-bar{
+    display: initial;
+   }
+   
+    header .menu{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background: var(--bg-color-1);
+        border-top: .1rem solid var(--purple);
+        padding: 1rem 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        text-decoration: none;
+    }   
+
+    header .menu.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .menu a {
+        display: block;
+        border-radius: .5rem;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        background: var(--bg-color-2);
+        text-decoration: none;
+    }
+
+}
+
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}

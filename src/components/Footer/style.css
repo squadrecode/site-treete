@@ -1,0 +1,55 @@
+.footer{
+    margin-top: 300px;
+    background: var(--bg-color-1);
+}
+
+.footer .footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .footer-container .box-footer h4{
+    font-size: 2rem;
+    color: var(--purple);
+    padding: 1rem 0;
+}
+
+.footer .footer-container .box-footer p{
+    font-size: 1.5rem;
+    color: var(--text-color-2);
+    padding: .7rem 0;
+}
+
+.footer .footer-container .box-footer a{
+    display: block;
+    font-size: 1.5rem;
+    color: var(--purple);
+    padding: .7rem 0;
+}
+
+.footer .footer-container .box-footer a i{
+    padding-right: .5rem;
+    color: var(--purple);
+
+
+}
+
+
+.footer .footer-container .box-footer a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 1rem;
+    color: var(--text-color-2);
+}
+
+.footer .copyright{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+    border-top: .1rem solid var(--purple);
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    color: var(--purple);
+}

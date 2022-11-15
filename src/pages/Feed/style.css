@@ -1,0 +1,71 @@
+
+
+div.box {
+    width: 300px;
+    display: inline-block;
+    margin-top: 20rem;
+    justify-content: baseline;
+    font-size: 15px;
+}
+
+
+
+label {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+
+}
+
+.botao-doacao {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #6c63ff;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.espacofeed {
+    margin-top: 35px;
+}
+
+iframe {
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cards-style {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50,50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    color: white;
+    background: var(--purple);
+    border-radius: .5rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: var(--text-color-2);
+}
+
+.box-container {
+    overflow-y: hidden;
+    width: 100%;
+    display: flex;
+}

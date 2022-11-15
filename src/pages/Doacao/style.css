@@ -1,0 +1,43 @@
+.doacao .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.doacao .container3 .box-donation {
+    background: var(--bg-color-1);
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+}
+
+.doacao .container3 .box-donation img {
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.doacao .container3 .box-donation .content {
+    padding: .5rem;
+}
+
+.doacao .container3 .box-donation .content h4 {
+    font-size: 2rem;
+    color: var(--text-color-1);
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    color: white;
+    background: var(--purple);
+    border-radius: .5rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: var(--text-color-2);
+}
